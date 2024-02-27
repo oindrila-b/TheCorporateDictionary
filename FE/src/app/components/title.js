@@ -16,7 +16,7 @@ const Title = () => {
         </h1>
         <h1 className='text-8xl mt-9 relative hover:text-gray-500/50 hover:scale-105 transition delay-75 duratio-100'>
           <a href='/corporate'>
-           Feat. Corporate 
+          Corporate 
           </a>
         </h1>
     </div>

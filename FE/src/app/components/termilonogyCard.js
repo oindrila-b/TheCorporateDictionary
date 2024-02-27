@@ -4,7 +4,7 @@ import { Divider } from '@nextui-org/react'
 
 const TerminologyCard = ({title, meaning, content}) => {
   return (
-    <div className='w-10/12 h-fit rounded-lg bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black text-white justify-center items-center text-center m-7 p-4'>
+    <div className='w-10/12 h-fit rounded-lg hover:delay-150 hover:-translate-y-1 hover:translate-x-1 hover:transition hover:shadow-lg hover:shadow-slate-700 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black text-white justify-center items-center text-center m-7 p-4'>
       <Card className='w-full h-full'>
         <CardHeader className='flex gap-3 justify-center text-center m-1'>
           <div className="flex flex-col ">
