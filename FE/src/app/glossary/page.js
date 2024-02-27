@@ -1,0 +1,50 @@
+import React from 'react'
+import Navbar from '../navigation'
+import TerminologyCard from '../components/termilonogyCard'
+
+const Glossary = () => {
+
+  const content = "The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis."
+  return (
+    <div className='flex flex-col min-h-screen overflow-hidden relative items-center bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"'>
+      <Navbar />
+      <div className='relative w-full m-16 p-36 justify-center items-center flex '>
+
+      <div className='grid grid-cols-3 w-full gap-8 justify-center items-center'>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+          <TerminologyCard title={"Title"} content={content} meaning={"meaning"}/>
+   
+        </div>
+        </div>
+        <div className='m-10 w-96 h-14 bg-gray-300/20 flex justify-center text-center items-center rounded-full'>
+        <p>
+          Sorry folks, that's all we have at the moment!
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export default Glossary
