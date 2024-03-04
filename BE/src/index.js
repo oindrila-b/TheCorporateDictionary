@@ -2,7 +2,7 @@ import express from 'express';
 import { connectDB } from './database/connection_db.js';
 
 const app = express();
-const port = 3000;
+const port = 8000;
 
 connectDB();
 

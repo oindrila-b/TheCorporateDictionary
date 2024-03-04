@@ -1,0 +1,20 @@
+{
+  "name": "techterms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=BE && npm run build --workspace=FE",
+    "dev": "npm run start",
+    "format": "npm run format --workspace=BE && npm run format --workspace=VE",
+    "lint": "npm run lint --workspace=BE && npm run lint --workspace=FE",
+    "start": "npm run start --workspace=BE & npm run dev --workspace=FE"
+    
+  },
+  "author": "Oindrila",
+  "license": "ISC",
+  "workspaces": [
+    "BE",
+    "FE"
+  ]
+}
