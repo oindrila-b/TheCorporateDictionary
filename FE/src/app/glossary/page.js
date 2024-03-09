@@ -13,7 +13,9 @@ const Glossary = () => {
 
         </div>
         <div className='absolute bottom-0  right-0 m-8'> 
-          <button className='w-40 h-11 bg-slate-700/60 rounded-lg relative text-white hover:bg-slate-700/40 hover:delay-150 hover:transition hover:shadow-md hover:shadow-slate-500 '>Add New Word</button>
+          <button className='w-40 h-11 bg-slate-700/60 rounded-lg relative text-white hover:bg-slate-700/40 hover:delay-150 hover:transition hover:shadow-md hover:shadow-slate-500 '>
+            Add New Word
+            </button>
         </div>
       </div>
       <div className='relative w-full overflow:hidden'>
