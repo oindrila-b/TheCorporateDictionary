@@ -5,7 +5,7 @@ const Title = () => {
     <div className='flex flex-col left-5 mt-52 text-gray-400/80 ml-28 cursor-pointer items-center'>
        <div className='text-9xl text-center items-center text-white'>
         <h1>Tech Terms</h1>
-        <p className='text-ellipsis text-balance text-2xl m-16 break-words'> Tech Terms is a platform where the reader can find different <span className='underline decoration-pink-900 hover:underline hover:decoration-pink-500'>terminologies</span> and what they mean, 
+        <p className='text-ellipsis text-balance text-2xl m-16 break-words'> Tech Terms is a platform where readers can find different <span className='underline decoration-pink-900 hover:underline hover:decoration-pink-500'>terminologies</span> and their meanings., 
           <span className='underline decoration-sky-900 hover:underline hover:decoration-sky-500'> articles</span> written on different topics, <span className='underline decoration-pink-900 hover:underline hover:decoration-pink-500'>discussions</span> on different topics 
           and all things <span className='underline decoration-sky-900 hover:underline hover:decoration-sky-500'>corporate</span>.
         </p>
