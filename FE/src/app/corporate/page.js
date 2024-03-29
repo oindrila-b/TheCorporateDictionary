@@ -11,6 +11,10 @@ const Corporate = () => {
         <CorporateTerm title={"title"} meaning={"A Corporate term"}/>
         <CorporateTerm title={"title"} meaning={"A Corporate term"}/>
         <CorporateTerm title={"title"} meaning={"A Corporate term"}/>
+        <CorporateTerm title={"title"} meaning={"A Corporate term"}/>
+        <CorporateTerm title={"title"} meaning={"A Corporate term"}/>
+        <CorporateTerm title={"title"} meaning={"A Corporate term"}/>
+        <CorporateTerm title={"title"} meaning={"A Corporate term"}/>
       </div>
     </div>
   )
