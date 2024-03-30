@@ -1,8 +1,13 @@
+'use client'
 import React from 'react'
 import Navbar from '../navigation'
 import TerminologyCard from '../components/termilonogyCard'
 
 const Glossary = () => {
+
+  const handleOnClick = () => {
+    console.log('handleOnClick');
+  }
 
   const content = "The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis."
   return (
@@ -13,7 +18,7 @@ const Glossary = () => {
 
         </div>
         <div className='absolute bottom-0  right-0 m-8'> 
-          <button className='w-40 h-11 bg-slate-700/60 rounded-lg relative text-white hover:bg-slate-700/40 hover:delay-150 hover:transition hover:shadow-md hover:shadow-slate-500 '>
+          <button onClick={handleOnClick} className='w-40 h-11 bg-slate-700/60 rounded-lg relative text-white hover:bg-slate-700/40 hover:delay-150 hover:transition hover:shadow-md hover:shadow-slate-500 '>
             Add New Word
             </button>
         </div>

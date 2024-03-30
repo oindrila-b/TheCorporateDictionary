@@ -1,8 +1,9 @@
 import mongoose, {Schema} from 'mongoose'
 
-const corporateTerminology = new Schema({
+const terminology = new Schema({
     title: String,
-    meaning: String
+    meaning: String,
+    definition: String
 })
 
-export const CorporateTerm = mongoose.model('CorporateTerm', corporateTerminology)
+export const Terminology = mongoose.model('Terminology', terminology)
