@@ -9,7 +9,7 @@ export const addNewTerminology = async({title, meaning, definition}) => {
         alert("Please enter valid information")
     } else {
         const newTerm = new Terminology(title, meaning, definition)
-        await newTerm.save()
+        return await newTerm.save()
     }
     
 }
