@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
-import { Terminology } from "../database/models/terminology"
-import { CorporatePhrase } from "../database/models/phrases"
+import  {Terminology}  from "../database/models/terminology.js"
+import { CorporatePhrase } from "../database/models/phrases.js"
 
 
 export const addNewTerminology = async({title, meaning, definition}) => {
@@ -8,8 +8,8 @@ export const addNewTerminology = async({title, meaning, definition}) => {
     if(title === undefined || title === '' || meaning === undefined || meaning === "" || definition === undefined || definition === "") {
         alert("Please enter valid information")
     } else {
-        const newTerm = new Terminology(title, meaning, definition)
-        return await newTerm.save()
+       const newTerminology = new Terminology({title: title, meaning: meaning, definition: definition})
+       await newTerminology.save()
     }
     
 }
