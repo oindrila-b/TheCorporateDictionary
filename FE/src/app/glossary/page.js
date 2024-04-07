@@ -6,6 +6,7 @@ import TerminologyCard from '../components/termilonogyCard'
 const Glossary = () => {
 
   const handleOnClick = () => {
+    // TODO: Create a modal for this component
     console.log('handleOnClick');
   }
 
