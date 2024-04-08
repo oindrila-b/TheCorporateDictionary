@@ -1,13 +1,21 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../navigation'
 import TerminologyCard from '../components/termilonogyCard'
 
 const Glossary = () => {
 
+  const [isDialogOpen, setIsDialogOpen] = useState(false)
+
   const handleOnClick = () => {
     // TODO: Create a modal for this component
+    if(!isDialogOpen) {
+      // build a dialog
+
+      setIsDialogOpen(true)
+    }
     console.log('handleOnClick');
+
   }
 
   const content = "The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis."
