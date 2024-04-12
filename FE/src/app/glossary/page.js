@@ -2,19 +2,16 @@
 import React, { useState } from 'react'
 import Navbar from '../navigation'
 import TerminologyCard from '../components/termilonogyCard'
+import Dialog from '../components/dialog'
 
 const Glossary = () => {
 
-  const [isDialogOpen, setIsDialogOpen] = useState(false)
+  const [isDialogOpen, setIsDialogOpen] = useState(true)
 
   const handleOnClick = () => {
     // TODO: Create a modal for this component
-    if(!isDialogOpen) {
-      // build a dialog
 
-      setIsDialogOpen(true)
-    }
-    console.log('handleOnClick');
+    Dialog()
 
   }
 
