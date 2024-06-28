@@ -1,7 +1,7 @@
-# TECH TERMS
+# NextLine
 
 ## About The Project 
-   The project focuses on listing down definitions used in the Corporate industry. Although the name Tech Terms inclines towards a more technical aspect, this project still is inclusive of all corporate terminologies. 
+   NextLine collected information regarding all things related to technology and the corporate area.
 
 ## Tech Stack:
  - FRONTEND 
