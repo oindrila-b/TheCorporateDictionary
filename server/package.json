@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "NextLine server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oindrila-b/NextLine.git"
+  },
+  "author": "Oindrila Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oindrila-b/NextLine/issues"
+  },
+  "homepage": "https://github.com/oindrila-b/NextLine#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  }
+}
