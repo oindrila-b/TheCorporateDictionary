@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from "next/link";
-import logo from '../../../asset/nextline-bg.png';
+import logo from '../../../asset/geeksis.png';
 
 const NavigationBar = () => {
     return (
