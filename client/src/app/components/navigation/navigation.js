@@ -8,12 +8,12 @@ const NavigationBar = () => {
             <div className="md:container md:mx-auto h-full">
                 <div className="flex justify-between items-center h-full">
                     <Link href="/">
-                    <Image src={logo} className='w-64' />
+                    <Image src={logo} className='w-48' />
                     </Link>                
                     <ul className="hidden md:flex gap-x-16 text-white">
                         <li>
                             <Link href="/phrases">
-                                <p>Phrases</p>
+                                <p>Terminologies</p>
                             </Link>
                         </li>
                         <li>
@@ -21,11 +21,11 @@ const NavigationBar = () => {
                                 <p>Articles</p>
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href="/atc">
                                 <p>ATC</p>
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

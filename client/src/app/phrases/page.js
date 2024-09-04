@@ -2,16 +2,16 @@
 import React from 'react'
 import NavigationBar from '../components/navigation/navigation';
 
-const Phrases = () => {
+const Terminologies = () => {
   return (
     <div
-    className='flex min-h-screen flex-col items-center p-10 bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900'>
+    className='flex min-h-screen flex-col items-center p-10 bg-gradient-to-r from-slate-900 to-slate-700'>
       <NavigationBar/>
       <div>
-        <p1> PHRASES </p1>
+        <p1> Terminologies </p1>
       </div>
     </div>
   )
 }
 
-export default Phrases;
+export default Terminologies;

@@ -4,7 +4,7 @@ import "./globals.css";
 const livvic = Livvic({ subsets: ["latin"] , weight: '400'});
 
 export const metadata = {
-  title: "NextLine",
+  title: "base.io",
   description: "",
 };
 
