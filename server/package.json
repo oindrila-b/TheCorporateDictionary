@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "NextLine server",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +18,13 @@
   },
   "homepage": "https://github.com/oindrila-b/NextLine#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "express": "^4.19.2",
     "mongoose": "^8.4.4",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "pino": "^9.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
   }
 }
