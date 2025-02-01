@@ -1,16 +1,16 @@
-# NextLine
+#  The Corporate Dictionary 
 
 ## About The Project 
-   NextLine collected information regarding all things related to technology and the corporate area.
+   The Corporate Dictionary collected information regarding all things related to technology and the corporate area.
 
 ## Tech Stack:
  - FRONTEND 
-    - React JS
-    - Next JS
+    - React TS
+    - Next TS
     - Tailwind CSS
     
  - BACKEND
-    - NODE JS
+    - BUN
     - Express JS
     - Mongoose
     - Mongo DB
